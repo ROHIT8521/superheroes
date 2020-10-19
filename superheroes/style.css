@@ -1,0 +1,22 @@
+.maindiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+
+    justify-content: center;
+}
+
+.firstdiv,
+.seconddiv,
+.fifthdiv,
+.fourthdiv {
+    display: grid;
+    justify-content: center;
+    border-radius: 0.5px;
+    border: solid darkgray;
+}
+
+.thirddiv {
+    display: grid;
+    justify-content: center;
+}
